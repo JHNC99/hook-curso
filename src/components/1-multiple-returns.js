@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-
-function MultipleReturns() {
+const MultipleReturns=()=>{
   const url = `https://api.github.com/users/JHNC99`;
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);

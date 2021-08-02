@@ -6,13 +6,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import UseStateCounter from "./components/UseStateCounter";
 //import UseEffectBasic from "./components/UseEffectBasic";
 //import UseeffectApi from "./components/UseeffectApi";
-import MultipleReturns from "./components/1-multiple-returns";
+//import MultipleReturns from "./components/1-multiple-returns";
+import { ShortCircuit } from "./components/2-sort-cituit";
 
 const App = () => {
   return (
     <div className="container">
       <h1 className="text-center">React advance</h1>
-      <MultipleReturns/>
+      <ShortCircuit/>
     </div>
   );
 };
