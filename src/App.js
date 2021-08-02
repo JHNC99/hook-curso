@@ -7,13 +7,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import UseEffectBasic from "./components/UseEffectBasic";
 //import UseeffectApi from "./components/UseeffectApi";
 //import MultipleReturns from "./components/1-multiple-returns";
-import { ShortCircuit } from "./components/2-sort-cituit";
+//import { ShortCircuit } from "./components/2-sort-cituit";\
+import { TernaryOperator } from "./components/3-ternary-operator";
 
 const App = () => {
   return (
     <div className="container">
       <h1 className="text-center">React advance</h1>
-      <ShortCircuit/>
+      <TernaryOperator/>
     </div>
   );
 };
